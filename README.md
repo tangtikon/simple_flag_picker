@@ -1,4 +1,4 @@
-# 🏳️‍🌈 Simple Flag Picker
+# 🏳️ Simple Flag Picker
 
 [![pub package](https://img.shields.io/pub/v/simple_flag_picker.svg)](https://pub.dev/packages/simple_flag_picker)
 [![likes](https://badges.bar/simple_flag_picker/likes)](https://pub.dev/packages/simple_flag_picker/score)
@@ -17,12 +17,6 @@ Works great with localization and supports Web, iOS, Android.
 -  Custom flag size and layout
 -  Fully stateless & composable
 -  Supports SVG for crisp rendering
-
----
-
-## Preview
-
-![Flag Picker Preview](https://raw.githubusercontent.com/yourusername/simple_flag_picker/main/preview.gif)
 
 ---
 
