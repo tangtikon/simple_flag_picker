@@ -20,11 +20,12 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(title: const Text('SimpleFlagPicker Example')),
         body: Center(
-          child: SimpleFlagPicker(
-            selectedCode: selected,
-            onChanged: (val) => setState(() => selected = val),
-          ),
-        ),
+            child: SimpleFlagPicker(
+          selectedCode: 'th',
+          onChanged: (code) => setState(() => selected = code),
+          flagSize: 36,
+          textStyle: const TextStyle(fontSize: 16),
+        )),
       ),
     );
   }

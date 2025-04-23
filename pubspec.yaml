@@ -1,6 +1,6 @@
 name: simple_flag_picker
 description: A simple Flutter widget to pick a country flag and change locale.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/tangtikon/simple_flag_picker
 repository: https://github.com/tangtikon/simple_flag_picker
 

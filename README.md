@@ -12,11 +12,25 @@ Works great with localization and supports Web, iOS, Android.
 
 ## Features
 
--  Pick from country flags
--  Change locale on tap
--  Custom flag size and layout
--  Fully stateless & composable
--  Supports SVG for crisp rendering
+- Display country flags from SVG assets
+- Change selected locale code via `onChanged`
+- 200+ supported countries (ISO 3166-1 alpha-2)
+- Handles missing SVGs gracefully with fallback icon
+- Shows loading spinner while rendering SVG
+- Supports custom text style and padding
+
+---
+
+## 📸 Preview
+
+```dart
+SimpleFlagPicker(
+  selectedCode: 'th',
+  onChanged: (code) => print('Selected: $code'),
+  flagSize: 32,
+  textStyle: TextStyle(fontSize: 16),
+)
+```
 
 ---
 
